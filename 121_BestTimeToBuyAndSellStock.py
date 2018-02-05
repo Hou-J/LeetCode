@@ -26,6 +26,6 @@ class Solution:
         profit = 0
         m = prices[0]
         for p in prices:
-            profit = max(profit, p-m)
-            m = min(m,p)
+            profit = max(profit, p - m)
+            m = min(m, p)
         return profit

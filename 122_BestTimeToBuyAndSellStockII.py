@@ -14,8 +14,8 @@ class Solution:
         """
         profits = 0
         for i in range(len(prices) - 1):
-            if prices[i+1] > prices[i]:
-                profits += prices[i+1] - prices[i]
+            if prices[i + 1] > prices[i]:
+                profits += prices[i + 1] - prices[i]
         return profits
 
         # return sum(y - x for x, y in zip(prices[:-1], prices[1:]) if y > x)

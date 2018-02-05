@@ -21,6 +21,6 @@ class Solution:
         :rtype: bool
         """
         try:
-            return bool(nums.index(target)+1)
+            return bool(nums.index(target) + 1)
         except:
             return False

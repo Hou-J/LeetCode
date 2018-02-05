@@ -12,6 +12,6 @@ class Solution:
         """
         ans = 0
         while n > 0:
-            ans += int(n/5)
-            n = int(n/5)
+            ans += int(n / 5)
+            n = int(n / 5)
         return ans

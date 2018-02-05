@@ -19,5 +19,5 @@ class Solution:
         """
         for i in range(len(nums)):
             left = target - nums[i]
-            if left in nums[i+1:]:
-                return [i, nums[i+1:].index(left) + i + 1]
+            if left in nums[i + 1:]:
+                return [i, nums[i + 1:].index(left) + i + 1]

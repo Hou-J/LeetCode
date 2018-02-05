@@ -32,7 +32,7 @@ class Solution:
             carryOn += l1.next.val + l2.next.val
             l1.next.val = carryOn % 10
             carryOn = carryOn // 10
-            l1,l2 = l1.next,l2.next
+            l1, l2 = l1.next, l2.next
         if l1.next is None:
             l1.next = l2.next
         while l1.next != None:

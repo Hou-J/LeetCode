@@ -21,4 +21,4 @@ class Solution:
             return 0
         l = self.maxDepth(root.left)
         r = self.maxDepth(root.right)
-        return max(l,r) + 1
+        return max(l, r) + 1

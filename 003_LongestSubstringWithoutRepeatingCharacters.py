@@ -22,7 +22,7 @@ class Solution:
         for i in range(len(s)):
             if s[i] in longestSub:
                 result = max(result, len(longestSub))
-                longestSub = longestSub[longestSub.index(s[i])+1:]
+                longestSub = longestSub[longestSub.index(s[i]) + 1:]
             longestSub += s[i]
         result = max(result, len(longestSub))
         return result

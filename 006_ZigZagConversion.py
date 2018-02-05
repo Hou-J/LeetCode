@@ -33,5 +33,5 @@ class Solution:
         result = ""
         for i in zigzag:
             for j in i:
-                result+=j
+                result += j
         return result
